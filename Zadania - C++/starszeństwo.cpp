@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
 
-
 int main(void)
 {
     int a,b;
@@ -25,7 +24,7 @@ int main(void)
     
     if (m >= 100)
     {
-        cout << "Whoa you;re cool! " << endl;
+        cout << "Wooo you're cool! " << endl;
     }
-    
+   Siema 
 }
