@@ -28,23 +28,20 @@ long int fib1(int n)
     fibionac[0] = 1;
     fibionac[1] = 1;
 
-
     for (int i=2; i < n; i++) 
     {
         fibionac[i] = fibionac[i-1] + fibionac[i-2];
     }
 
-    return fibionac[n-1];
+    return fibionac[n-1]
 }
 
 
 int main(void)
 {
-
     cout << f(1) << endl;
 
     cout << potega(3,4) << endl;
-
 
     clock_t start = clock();
     cout << fib(40);
